@@ -16,7 +16,6 @@ class Net(torch.nn.Module):
         self.maxlen = maxlen
         self.gru = torch.nn.GRU(input_size=self.feature_size, hidden_size=self.hidden_size, num_layers=1,
                                 bidirectional=True)
-        # self.gru = torch.nn.GRU(input_size=self.feature_size, hidden_size=self.hidden_size, num_layers=1, bidirectional=True, dropout=self.keep_size)
         self.dense1 = torch.nn.Linear(2 * self.hidden_size, 1)
         self.dense2 = torch.nn.Linear(self.maxlen, 1)
         self.embedding = torch.nn.Embedding.from_pretrained(
