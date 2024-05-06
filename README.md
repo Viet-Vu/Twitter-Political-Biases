@@ -5,7 +5,7 @@ Group Members (Team 11):
 - Poorna B.
 - Roj P.        
 
-This project was made for our Intro to Machine Learning course. We used a GRU model to analyze Twitter posts and detect their political leanings.  
+This project was made for our Intro to Machine Learning course CS 4375. We used a GRU model to analyze Twitter posts and detect their political leanings.  
 
 ## Instructions  
 1. Download repository onto your local device (Using PyCharm as our IDE)
