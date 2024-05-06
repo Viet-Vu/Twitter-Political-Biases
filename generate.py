@@ -47,7 +47,6 @@ def generate_glove_weights(vocab):
     print("Word hit rate %f" % (hits/len(vocab)))
     return embedding_matrix
 
-# this is the only function I edited
 def generate_vocab_and_glove():
     vocab = {
         "<PAD>": 0,
